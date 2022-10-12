@@ -7,7 +7,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Go Mod Init
-        run: go mod init
+        run: go mod init test-action
       - uses: actions/checkout@v2
       - name: Go Mod Tidy
         run: go mod tidy
