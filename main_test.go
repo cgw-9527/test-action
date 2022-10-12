@@ -7,7 +7,7 @@ func TestGetVersion1(t *testing.T) {
 		name string
 		want string
 	}{
-		{name: "test1", want: "0.0.1"},
+		{name: "test1", want: "0.1.1"},
 	}
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
